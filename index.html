@@ -5,8 +5,40 @@
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
+    <style>
+      nav{
+        text-align: center;
+      }
+      ul,li{
+        list-style: none;
+        display: inline-block;
+        margin-right: 30px;
+      }
+      a{
+        text-decoration: none;
+      }
+      a:visited,a:hover,a:link{
+        color: black;
+      }
+      button{
+        margin-left: 48%;
+        padding: 10px;
+        border-radius: 10px;
+      }
+      button:hover{
+        background-color: aquamarine;
+      }
+    </style>
   </head>
   <body>
+    <nav>
+      <ul>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Github</a></li>
+        <li><a href="#">Youtube</a></li>
+      </ul>
+    </nav>
+    <button>Presionar</button>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
   </body>
